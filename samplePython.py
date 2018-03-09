@@ -21,6 +21,7 @@ while guesses_made < 6:
 
     if guess == number:
         break
+    print 'sample feature 2'
 
 if guess == number:
     print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
