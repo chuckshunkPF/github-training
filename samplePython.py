@@ -18,6 +18,7 @@ while guesses_made < 6:
 
     if guess > number:
         print 'Your guess is too high.'
+        print 'this is sample feature 1'
 
     if guess == number:
         break
